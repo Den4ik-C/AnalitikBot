@@ -18,7 +18,7 @@ cabinet_menu = ReplyKeyboardMarkup(
         [KeyboardButton("💼 Криптопортфель")],
         [KeyboardButton("📊 Поверхностный анализ"), KeyboardButton("📈 Подробный анализ")],
         [KeyboardButton("🔙 Назад")],
-        [KeyboardButton("⚙️ Настроки")]
+        [KeyboardButton("⚙️ Инструменты")]
     ],
     resize_keyboard=True
 )
@@ -33,3 +33,6 @@ portfolio_menu = ReplyKeyboardMarkup(
     ],
     resize_keyboard=True
 )
+
+
+# меню создания кошелька
